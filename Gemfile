@@ -16,7 +16,6 @@ gem 'bcrypt-ruby'
 gem 'haml'
 gem 'devise'
 gem 'quiet_assets', :group => :development
-gem 'unicorn'
 
 
 gem 'capistrano', '~> 3.1.0'
