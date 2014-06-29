@@ -1,8 +1,8 @@
 development:
   adapter: postgresql
-  database: DATABASE
-  username: USERNAME
-  password: PASSWORD
+  database: radioserver
+  # username: USERNAME
+  # password: PASSWORD
   host: localhost
   encoding: utf8
   pool: 5
@@ -20,9 +20,9 @@ test:
 
 production:
   adapter: postgresql
-  database: DATABASE
-  username: USERNAME
-  password: PASSWORD
+  database: radioserver
+  # username: radioserver
+  # password: radioserver
   host: localhost
   encoding: utf8
   pool: 5

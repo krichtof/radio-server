@@ -16,4 +16,13 @@ gem 'bcrypt-ruby'
 gem 'haml'
 gem 'devise'
 gem 'quiet_assets', :group => :development
-gem 'thin'
+gem 'unicorn'
+
+
+gem 'capistrano', '~> 3.1.0'
+# rails specific capistrano funcitons
+gem 'capistrano-rails', '~> 1.1.0'
+# integrate bundler with capistrano
+gem 'capistrano-bundler'
+# if you are using RBENV
+gem 'capistrano-rbenv', "~> 2.0"
