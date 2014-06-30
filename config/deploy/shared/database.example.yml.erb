@@ -3,9 +3,9 @@
   timeout: 5000
   encoding: utf8
   reconnect: false
-  database: <%= "#{fetch(:application)}_#{fetch(:rails_env)}" %>
+  database: <%= "#{fetch(:application)}" %>
   pool: 5
-  username: <%= "#{fetch(:application)}_#{fetch(:rails_env)}" %>
-  password:
+  username: <%= "#{fetch(:application)}" %>
+  password: <%= "#{fetch(:db_password)}"%>
   host:
   port: 5432

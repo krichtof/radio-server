@@ -11,7 +11,7 @@ set :server_name, "mybox"
 # at filepaths
 set :full_app_name, "#{fetch(:application)}_#{fetch(:stage)}"
 
-server 'railsbox', user: 'deploy', roles: %w{web app db}, primary: true
+server 'mybox', user: 'deploy', roles: %w{web app db}, primary: true
 
 set :deploy_to, "/home/#{fetch(:deploy_user)}/apps/#{fetch(:full_app_name)}"
 

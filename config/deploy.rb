@@ -1,5 +1,7 @@
-set :application, 'radio-server'
+set :application, 'radioserver'
 set :deploy_user, 'deploy'
+
+set :db_password, 'RdsxloP1'
 
 # setup repo details
 set :scm, :git
